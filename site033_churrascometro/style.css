@@ -1,0 +1,31 @@
+body{
+    background-image: url('https://superfestval.com.br/wp-content/uploads/2020/08/AdobeStock_269439787-scaled.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black 0 0 15px 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, h2{
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
